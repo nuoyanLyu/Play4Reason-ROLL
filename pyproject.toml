@@ -1,3 +1,11 @@
+[project]
+name = "roll"             # 项目名称
+version = "0.1.0"         # 版本号，可以随便写
+description = "ROLL project"
+
+[tool.setuptools.packages.find]
+include = ["roll*"]       # 只安装 roll/ 目录为包
+
 [tool.black]
 line-length = 119
 target-version = ['py310']
